@@ -22,7 +22,7 @@ public class TestDemo1 {
 	@Test
 	public void LoginTest1() {
 		driver.get("https://www.saucedemo.com/");
-		System.out.println("Chrome browser has been launched.");
+		System.out.println("Chrome browser has been launched");
 		driver.findElement(By.xpath("//input[@id='user-name']")).sendKeys("standard_user");
 		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("secret_sauce");
 		driver.findElement(By.xpath("//input[@name='login-button']")).click();
